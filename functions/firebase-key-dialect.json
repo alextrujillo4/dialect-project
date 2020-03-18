@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dialectbotreclutamiento-shginm",
+  "private_key_id": "eebf8eda4cbcf25f629e4cb250b2a6ddfaefd54c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDaYFcbOUu80qmR\nVMPi8KCR7i4yqUBP6kElg9ELfPZRDaT7zvq/0826hs6zda8B5Wv4etvwQKGlXtfK\n+jrVcqYmqaYOE8lfcLSLJO+DawyltWxAbEUaYP2h98TdXV6AhgeYeBmizrNz4vGr\nqG1Au1SNVS9DfhMP0W7XxzHaUgksAFEOor+z0xHNnHsJdofk7SJadY77npvVXnO7\n+BswsKp+8mcuU43dxOowxIMiPdo7d50xUvAqysge18L04NoWw6iVvXhFjv/BJX4G\nHLODPvEHXsq0/sp3tGoM5hO3ckg2X/kE0+mkp4R1ikcIO92MkyQzNuduaVE16PEx\nJGrXUiYTAgMBAAECggEASPVJ9Nr6Hk5Ff7wRq/bXtpmcTqm0Rl7NwCJfi5aG1sKX\nvddDeCZjw+85DMUDIL+NCJnHdGerecwLjZF3aYuhziX8yBQ9QYkukJRY/w+bTJul\n3IovtiX0ZxIX8Bs7MPZWgE6TxgyH8O4/7qlZQvizQXrVzRdIeA7xGN9AnR+uV8fv\nLqj+EOuoA8J6Dq8fSn2rHB4uKV3UhOmE6wU/suVHS3j5QrjXwgTwRfj2pUYz2Kwk\nPpUaECVYkAduSJKRCOobtZnlLXBdBUh2aKllEodXOfMYR513qrBXaRIvb/KYb4s/\n9aKZS1fg4GQLuxnI8Mqz5L87xNsl35Psbz7IjIBjgQKBgQD2LEMF5dpCBiBUF+h9\np5Z1/hloz4zuO0iwNvdwr0Z4o/orkko+9gguPiqY41/B5aCppmjb4TenfDfAClFI\nnda4jIEGOHn3Y0r++FWjY8KRwjg8YdZbt4xusS0O+22Y3WhPmFhLMoKiUrEw4HhU\nRyTIooxZPSjFP592FscYHcAckwKBgQDjGAOqvxXlYAp90AC55DwtooCK8DBn4VjB\nJUdwvXD5THc0Q8Rj+0Kq1O4l3xnZ1/P+t6w6NokX6KFgLTlT2bWcMOZQWeRBKgYE\nZIQowLxV5smRTcbaxS8AbwBlvxZIWhlwjkKWL6xxSGLAW8NrN16xt6s+vTGGmsJl\n+sa9XoVAgQKBgQCqPoP/cS1W2bvDzGD5fUu9wAO8i0TQgGlNjEXlRSH8TpK1TU9R\naX7Q1CdLYnuXsYFBshb0cTW2+13mznvWN2oGaQzVy3r1zlJQMFexTk2B1gpkH9lJ\nxo81AgzCPrlVrVD1Mstk/cKAFaX6wlIVHrpekqNzF6u5db2Gwkvf7rssRwKBgHUS\nmkFaRXV8r6vwoY8zxHpaPh5iePH00IayK0RJxYYgD4wYK5THobTkFOndPDx8AkOc\neOOB3ec/fIJSji1WHTQqWXGvBec6POPi1ecUhYNbeSq5h/ycjwCQOQo7Gset+1N1\nY4p9hU7ZXF+CbxpE70J7R4MOkgusmO9t+ysBIX0BAoGAV+a2/vGfYBAGUt+AlS0T\nxj8aNGEBopOLBj6SSqkra5Kj+RQPqCvoi7uDfoDGt5SM1og+7w4Hjv7SoHrPVcTj\nZ5xROOm+GHl7aMHsMtbXoujLQ4OOp+xaRDyv3ZjlTYhpTJp4G+6aJ+/hNP3uJCFl\n5cP3///2LeyNEEFoOHxZ8gw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-39tgu@dialectbotreclutamiento-shginm.iam.gserviceaccount.com",
+  "client_id": "109982756121263238862",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-39tgu%40dialectbotreclutamiento-shginm.iam.gserviceaccount.com"
+}
