@@ -1,5 +1,6 @@
 import './firebase';
 import Vue from 'vue';
+import VueFire from 'vuefire';
 
 import firebase from 'firebase';
 import VueJsonToCsv from 'vue-json-to-csv';
@@ -13,7 +14,6 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import * as firebasePlugin from 'vuefire';
 
 import router from './router';
 import App from './App.vue';
@@ -26,8 +26,8 @@ Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.component('downloadExcel', JsonExcel);
 
 Vue.use(BootstrapVue);
-Vue.use(firebasePlugin);
 Vue.use(VueJsonToCsv);
+Vue.use(VueFire);
 
 firebase.auth().onAuthStateChanged(() => {
   new Vue({

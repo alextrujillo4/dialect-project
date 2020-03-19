@@ -1,7 +1,6 @@
-import firebase from 'firebase';
-import 'firebase/app';
+import { initializeApp } from 'firebase';
 
-const config = {
+const app = initializeApp({
   apiKey: 'AIzaSyAoa44KA10-7GxuSoKNWDrnStcBBa0Ru7w',
   authDomain: 'dialectbotreclutamiento-shginm.firebaseapp.com',
   databaseURL: 'https://dialectbotreclutamiento-shginm.firebaseio.com',
@@ -9,19 +8,10 @@ const config = {
   storageBucket: 'dialectbotreclutamiento-shginm.appspot.com',
   messagingSenderId: '691851747789',
   appId: '1:691851747789:web:fd876f1cf6075ee4b4e484',
-};
-firebase.initializeApp(config);
+});
 
-// firebase utils
-const db = firebase.database();
-
-// firebase collections
-const usersRef = db.ref('usuarios_fb');
-
-export {
-  db,
-  usersRef,
-};
+export const db = app.database();
+export const usersRef = db.ref('usuarios_fb');
 
 export const errorMessages = {
   'auth/wrong-password': 'Contraseña incorrecta',
