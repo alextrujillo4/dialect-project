@@ -1,20 +1,19 @@
-// Get a RTDB instance
-import firebase from 'firebase/app';
-import 'firebase/database';
+import Firebase from 'firebase';
 
-export const db = firebase
-  .initializeApp({
-    apiKey: 'AIzaSyAoa44KA10-7GxuSoKNWDrnStcBBa0Ru7w',
-    authDomain: 'dialectbotreclutamiento-shginm.firebaseapp.com',
-    databaseURL: 'https://dialectbotreclutamiento-shginm.firebaseio.com',
-    projectId: 'dialectbotreclutamiento-shginm',
-    storageBucket: 'dialectbotreclutamiento-shginm.appspot.com',
-    messagingSenderId: '691851747789',
-    appId: '1:691851747789:web:39b2aef8c42d2fb4b4e484',
-  })
-  .database();
+const config = {
+  apiKey: 'AIzaSyAoa44KA10-7GxuSoKNWDrnStcBBa0Ru7w',
+  authDomain: 'dialectbotreclutamiento-shginm.firebaseapp.com',
+  databaseURL: 'https://dialectbotreclutamiento-shginm.firebaseio.com',
+  projectId: 'dialectbotreclutamiento-shginm',
+  storageBucket: 'dialectbotreclutamiento-shginm.appspot.com',
+  messagingSenderId: '691851747789',
+  appId: '1:691851747789:web:fd876f1cf6075ee4b4e484',
+};
 
+const app = Firebase.initializeApp(config);
+const db = app.database();
 export const usersRef = db.ref('usuarios_fb');
+
 
 export const errorMessages = {
   'auth/wrong-password': 'Contraseña incorrecta',

@@ -2,8 +2,12 @@
   <div class="sign-up">
     <h3>Crea tu cuenta</h3>
     <input type="text" v-model="email" placeholder="Correo electrónico"><br>
-    <input type="password" v-model="password" placeholder="Contraseña"><br>
-    <input type="password" v-model="password_confirmation" placeholder="Confirmar contraseña"><br>
+    <label>
+      <input type="password" v-model="password" placeholder="Contraseña">
+    </label><br>
+    <label>
+      <input type="password" v-model="password_confirmation" placeholder="Confirmar contraseña">
+    </label><br>
     <p v-if="error_message" class="error-message">Error: No coinciden las contraseñas</p>
     <b-button variant="outline-success" @click="signUp">Registrar</b-button>
     <span>o regresa a <router-link to="/login">Iniciar Sesion</router-link>.</span>

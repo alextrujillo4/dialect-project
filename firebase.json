@@ -5,7 +5,7 @@
     ]
   },
   "hosting": {
-    "public": "public",
+    "public": "dialect-vue/dist",
     "ignore": [
       "firebase.json",
       "**/.*",
