@@ -13,7 +13,6 @@ moment.locale('es-us');
 export default {
   data() {
     return {
-      users: [],
       fields: [
         {
           key: 'name',
@@ -73,16 +72,20 @@ export default {
       ],
     };
   },
-  firebase: {
-    users: usersRef,
-  },
   computed: {
     users_data() {
-      return this.users.map((user) => ({
-        ...user, date_of_interview: moment(user.date_of_interview).format('dddd, D MMMM YYYY - hh:mm a'), last_interaction: moment(user.last_interaction).format('dddd, D MMMM YYYY'),
-      }));
+      return usersRef.once('value', (snapshot) => {
+        const user = snapshot.val();
+        console.log(user);
+        const miMapa = new Map();
+        miMapa.set('user', user);
+        miMapa.set('date_of_interview', moment(user.date_of_interview).format('dddd, D MMMM YYYY - hh:mm a'));
+        miMapa.set('last_interaction', moment(user.last_interaction).format('dddd, D MMMM YYYY'));
+        return miMapa;
+      });
     },
   },
+
 };
 
 </script>

@@ -1,4 +1,5 @@
-import Firebase from 'firebase';
+import firebase from 'firebase';
+import 'firebase/app';
 
 const config = {
   apiKey: 'AIzaSyAoa44KA10-7GxuSoKNWDrnStcBBa0Ru7w',
@@ -9,11 +10,18 @@ const config = {
   messagingSenderId: '691851747789',
   appId: '1:691851747789:web:fd876f1cf6075ee4b4e484',
 };
+firebase.initializeApp(config);
 
-const app = Firebase.initializeApp(config);
-const db = app.database();
-export const usersRef = db.ref('usuarios_fb');
+// firebase utils
+const db = firebase.database();
 
+// firebase collections
+const usersRef = db.ref('usuarios_fb');
+
+export {
+  db,
+  usersRef,
+};
 
 export const errorMessages = {
   'auth/wrong-password': 'Contraseña incorrecta',
