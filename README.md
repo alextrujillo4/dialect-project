@@ -1,23 +1,30 @@
 # dialect-vue
 
-## Project setup
+## Para instalar dependencias
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Para correr la web de forma local
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+yarn run serve
 ```
 
-### Lints and fixes files
+
+### Para compilar la web de forma local
 ```
-yarn lint
+yarn run build
+```
+### Para subir la web compilada a firebase
+```
+firebase deploy --only hosting
+```
+
+### Importante!
+para que funcione correctamente el desarrollo con la base de datos alojada en la web. hay que usar la versión
+1.4.5 de Vuefire.  Vuefire ya no funciona para Realtimedatabase solo para Firestore.
+```
+npm install --save vuefire@1.4.5
 ```
 
 ### Customize configuration
