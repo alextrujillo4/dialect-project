@@ -38,7 +38,6 @@ export default {
           this.$router.replace('home');
         },
         (err) => {
-          console.log(errorMessages);
           alert(`Oops. ${errorMessages[err.code]}`);
         });
     },
