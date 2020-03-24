@@ -35,7 +35,7 @@ function processV2Request(request, response) {
         method: 'GET',
         url:`https://graph.facebook.com/v5.0/${facebook_userId}/`,
         qs:{
-            access_token: 'EAAO9PkmsijMBAGxfOQykEw4vp2UoTAys7XEy1aZBidlqsxwzyffrpqI8jJUuaRSLU23qqMxYN4FVZCRtuMTfRC3CJAjGTq0HTPjnycFoVaQi0JKv0CAZB7j8iFNgd68jM0eIbd0byZCTrJPocK3YTIfLQz7PsbEwcwG2mT2NdmSfKfZCCGuYv'
+            access_token: 'EAAO9PkmsijMBAGkkZCI2fCuBNSyXPy01z9ZCi8RjG48fJ5gdZBlBxQsAAfMVMZBLFbVCLY2dzI34RJG6s6WyDsJIpfNrvEeq5fIZAhXZBWLSlDOZCRDZCiw0yvEXuUFWVEQj5w2yZAZBjUHmXEKPiWn3MPi4fDlkXYyhn00LHBsda5UAZDZD'
         },
     };
     const actionHandlers = {
